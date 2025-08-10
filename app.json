@@ -1,7 +1,7 @@
 {
   "name": "Ivan UserBot",
   "description": "Please don't customize the repo",
-  "repository": "https://github.com/YourUsername/YourUserBotRepo",
+  "repository": "https://github.com/Ahad566677/ivanuserbot",
   "keywords": ["telegram", "userbot", "python", "pyrogram"],
   "env": {
     "API_ID": {
