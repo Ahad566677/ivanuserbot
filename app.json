@@ -1,45 +1,42 @@
 {
-  "name": "My Telegram Userbot",
-  "description": "A Telegram userbot built with Pyrogram/Telethon for personal automation.",
-  "repository": "https://github.com/yourusername/youruserbotrepo",
-  "logo": "https://telegra.ph/file/examplelogo.png",
-  "keywords": ["telegram", "userbot", "pyrogram", "telethon", "heroku"],
+  "name": "IVANxUSERBOT",
+  "description": "I AM MADE BY IVAN A EXCLUSIVE USERBOT",
+  "repository": "https://github.com/Ahad566677/ivanuserbot",
+  "logo": "https://files.catbox.moe/b9o9m1.jpg",
+  "keywords": ["telegram", "userbot", "python", "pyrogram"],
   "env": {
     "API_ID": {
-      "description": "Your Telegram API ID from https://my.telegram.org",
-      "required": true
+      "description": "Get this from https://my.telegram.org",
+      "value": "20536100"
     },
     "API_HASH": {
-      "description": "Your Telegram API HASH from https://my.telegram.org",
-      "required": true
+      "description": "Get this from https://my.telegram.org",
+      "value": "5e3694deb111a38fe4aba250eb37af6a"
     },
-    "SESSION_STRING": {
-      "description": "String Session generated from Telethon or Pyrogram",
-      "required": true
+    "BOT_TOKEN": {
+      "description": "Bot token from @BotFather",
+      "value": ""
     },
-    "BOTLOG_CHATID": {
+    "ELITE_BOT_USERNAME": {
+      "description": "Elite bot username without @",
+      "value": ""
+    },
+    "ELITE_SESSION": {
+      "description": "Pyrogram session string for the elite bot",
+      "value": ""
+    },
+    "LOG_CHAT_ID": {
       "description": "Chat ID where logs will be sent",
-      "required": false
+      "value": "-1002791009509"
     },
-    "HEROKU_APP_NAME": {
-      "description": "Your Heroku app name",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Your Heroku API key from account settings",
-      "required": false
+    "SUDO_USERS": {
+      "description": "User IDs with sudo access (space separated)",
+      "value": ""
     }
   },
   "buildpacks": [
     {
       "url": "heroku/python"
     }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-1X"
-    }
-  },
-  "stack": "heroku-22"
+  ]
 }
