@@ -1,47 +1,45 @@
 {
-  "name": "IVANxUSERBOT",
-  "description": "I AM MADE BY IVAN A EXCLUSIVE USERBOT",
-  "repository": "https://github.com/Ahad566677/ivanuserbot",
-  "logo": "https://files.catbox.moe/b9o9m1.jpg",
+  "name": "Ivan UserBot",
+  "description": "Please don't customize the repo",
+  "repository": "https://github.com/YourUsername/YourUserBotRepo",
   "keywords": ["telegram", "userbot", "python", "pyrogram"],
   "env": {
     "API_ID": {
-      "description": "Get this from https://my.telegram.org",
-      "value": "20536100"
+      "description": "Your Telegram API ID from https://my.telegram.org",
+      "required": true
     },
     "API_HASH": {
-      "description": "Get this from https://my.telegram.org",
-      "value": "5e3694deb111a38fe4aba250eb37af6a"
+      "description": "Your Telegram API hash from https://my.telegram.org",
+      "required": true
     },
     "BOT_TOKEN": {
       "description": "Bot token from @BotFather",
-      "value": ""
+      "required": true
     },
     "ELITE_BOT_USERNAME": {
-      "description": "Elite bot username without @",
-      "value": ""
+      "description": "The bot's username without @",
+      "required": true
     },
     "ELITE_SESSION": {
-      "description": "Pyrogram session string for the elite bot",
-      "value": ""
+      "description": "String session for the userbot",
+      "required": true
     },
     "LOG_CHAT_ID": {
-      "description": "Chat ID where logs will be sent",
-      "value": "-1002791009509"
+      "description": "Telegram chat ID for logging",
+      "required": true
     },
-    "SUDO_USERS": {
-      "description": "User IDs with sudo access (space separated)",
-      "value": ""
-        },
     "HEROKU_API_KEY": {
-      "description": "Your Heroku account's API key",
-      "value": "",
-      "required": false
+      "description": "Your Heroku account API key from https://dashboard.heroku.com/account",
+      "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "Your heroku app name",
-      "value": "",
-      "required": false
+      "description": "The name of your Heroku app",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "User IDs of sudo users separated by space",
+      "required": true
+    }
   },
   "buildpacks": [
     {
