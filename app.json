@@ -6,39 +6,48 @@
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID from https://my.telegram.org",
-      "required": true
+      "required": true,
+      "value": "20536100"
     },
     "API_HASH": {
       "description": "Your Telegram API hash from https://my.telegram.org",
-      "required": true
+      "required": true,
+      "value": "5e3694deb111a38fe4aba250eb37af6a"
     },
     "BOT_TOKEN": {
       "description": "Bot token from @BotFather",
-      "required": true
+      "required": true,
+      "value": ""
     },
     "ELITE_BOT_USERNAME": {
       "description": "The bot's username without @",
-      "required": true
+      "required": true,
+      "value": ""
     },
     "ELITE_SESSION": {
       "description": "String session for the userbot",
-      "required": true
+      "required": true,
+      "value": ""
     },
     "LOG_CHAT_ID": {
       "description": "Telegram chat ID for logging",
-      "required": true
+      "required": true,
+      "value": "-1002791009509"
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku account API key from https://dashboard.heroku.com/account",
-      "required": true
+      "required": true,
+      "value": ""
     },
     "HEROKU_APP_NAME": {
       "description": "The name of your Heroku app",
-      "required": true
+      "required": true,
+      "value": ""
     },
     "SUDO_USERS": {
       "description": "User IDs of sudo users separated by space",
-      "required": true
+      "required": true,
+      "value": ""
     }
   },
   "buildpacks": [
